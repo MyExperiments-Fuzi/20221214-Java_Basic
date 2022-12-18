@@ -6,7 +6,7 @@
 - **Membuat Project**
 - **Membuat Main Class**
 - **Membuat Model**
-- **A**
+- **Menentukan Business Logic**
 - **A**
 - **A**
 - **A**
