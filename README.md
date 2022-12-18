@@ -7,7 +7,7 @@
 - **Membuat Main Class**
 - **Membuat Model**
 - **Menentukan Business Logic**
-- **A**
+- **Menentukan View**
 - **A**
 - **A**
 - **A**
