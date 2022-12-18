@@ -1,6 +1,6 @@
 # **LEARN BASIC JAVA**
 
-## **Java Dasar**
+## **01. Java Dasar**
 
 - **Hello World**
 - **Tipe Data Number**
