@@ -1,14 +1,14 @@
 # LEARN BASIC JAVA
 
-## **2. Studi Kasus Java Dasar: Aplikasi Todolist**
+## **2. Studi Kasus Java Dasar: Aplikasi TodoList**
 
-- **Prototype Aplikasi Todolist**
+- **Prototype Aplikasi TodoList**
 - **Membuat Project**
 - **Membuat Main Class**
 - **Membuat Model**
 - **Menentukan Business Logic**
 - **Menentukan View**
-- **A**
+- **Implementasi Business Logic - Menampilkan TodoList**
 - **A**
 - **A**
 - **A**
