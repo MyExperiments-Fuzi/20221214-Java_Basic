@@ -11,6 +11,7 @@
 - **Implementasi Business Logic - Menampilkan TodoList**
 - **Test Menampilkan TodoList**
 - **Menambah TodoList**
+- **Test Menambah TodoList**
 - **A**
 - **A**
 - **A**
