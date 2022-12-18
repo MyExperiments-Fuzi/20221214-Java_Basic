@@ -5,7 +5,7 @@
 - **Prototype Aplikasi Todolist**
 - **Membuat Project**
 - **Membuat Main Class**
-- **A**
+- **Membuat Model**
 - **A**
 - **A**
 - **A**
