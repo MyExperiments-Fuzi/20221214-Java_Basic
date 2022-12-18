@@ -9,7 +9,7 @@
 - **Menentukan Business Logic**
 - **Menentukan View**
 - **Implementasi Business Logic - Menampilkan TodoList**
-- **A**
+- **Test Menampilkan TodoList**
 - **A**
 - **A**
 - **A**
