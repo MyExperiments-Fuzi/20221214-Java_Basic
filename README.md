@@ -21,3 +21,4 @@
 - **Test View Menambahkan TodoList**
 - **View Menghapus TodoList**
 - **Test View Menghapus TodoList**
+- **Test Seluruh Aplikasi TodoList**
