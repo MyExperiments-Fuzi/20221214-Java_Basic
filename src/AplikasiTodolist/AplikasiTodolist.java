@@ -9,13 +9,15 @@ public class AplikasiTodolist {
     // testShowTodoList();
     // testAddTodoList();
     // testRemoveTodoList();
-    testInput();
+    // testInput();
+    testViewShowTodoList();
   }
 
   /**
    * Menampilkan todo list
    */
   public static void showTodoList() {
+    System.out.println("TODOLIST");
     for (int i = 0; i < model.length; i++) {
       var todo = model[i];
       var no = i + 1;
@@ -153,6 +155,16 @@ public class AplikasiTodolist {
         System.out.println("Pilihan tidak dimengerti");
       }
     }
+  }
+
+  public static void testViewShowTodoList() {
+    addTodoList("Satu");
+    addTodoList("Dua");
+    addTodoList("Tiga");
+    addTodoList("Empat");
+    addTodoList("Lima");
+
+    viewShowTodoList();
   }
 
   /**
