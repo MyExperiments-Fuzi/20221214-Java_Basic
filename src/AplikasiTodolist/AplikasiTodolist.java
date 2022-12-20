@@ -10,7 +10,8 @@ public class AplikasiTodolist {
     // testAddTodoList();
     // testRemoveTodoList();
     // testInput();
-    testViewShowTodoList();
+    // testViewShowTodoList();
+    testViewAddTodoList();
   }
 
   /**
@@ -180,6 +181,14 @@ public class AplikasiTodolist {
     } else {
       addTodoList(todo);
     }
+  }
+
+  public static void testViewAddTodoList() {
+    addTodoList("Satu");
+    addTodoList("Dua");
+    viewAddTodoList();
+
+    showTodoList();
   }
 
   /**
