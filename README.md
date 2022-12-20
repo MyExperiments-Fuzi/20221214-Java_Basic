@@ -20,16 +20,4 @@
 - **View Menambahkan TodoList**
 - **Test View Menambahkan TodoList**
 - **View Menghapus TodoList**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
+- **Test View Menghapus TodoList**
