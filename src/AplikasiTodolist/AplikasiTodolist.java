@@ -73,7 +73,16 @@ public class AplikasiTodolist {
   /**
    * Menghapus todo dari list
    */
-  public static void removeTodoList() {}
+  public static boolean removeTodoList(Integer number) {
+    if ((number - 1) >= model.length) { // jika panjang lebih
+      return false;
+    } else if (model[number - 1] == null) { // jika panjang kurang dr null
+      return false;
+    } else {
+      model[number - 1] = null;
+      return true;
+    }
+  }
 
   /**
    * Menampilkan view todo list

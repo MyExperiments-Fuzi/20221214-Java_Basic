@@ -12,7 +12,7 @@
 - **Test Menampilkan TodoList**
 - **Menambah TodoList**
 - **Test Menambah TodoList**
-- **A**
+- **Menghapus TodoList**
 - **A**
 - **A**
 - **A**
