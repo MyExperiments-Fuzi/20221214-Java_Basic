@@ -6,7 +6,8 @@ public class AplikasiTodolist {
 
   public static void main(String[] args) {
     // testShowTodoList();
-    testAddTodoList();
+    // testAddTodoList();
+    testRemoveTodoList();
   }
 
   /**
@@ -76,12 +77,41 @@ public class AplikasiTodolist {
   public static boolean removeTodoList(Integer number) {
     if ((number - 1) >= model.length) { // jika panjang lebih
       return false;
-    } else if (model[number - 1] == null) { // jika panjang kurang dr null
+    } else if (model[number - 1] == null) { // jika value null
       return false;
     } else {
-      model[number - 1] = null;
+      // satu
+      // tiga -> tergeser karena dua dihapus
+      // null
+
+      for (int i = (number - 1); i < model.length; i++) {
+        if (i == (model.length - 1)) { // menghindari out of the bound
+          model[i] = null;
+        } else {
+          model[i] = model[i + 1];
+        }
+      }
       return true;
     }
+  }
+
+  public static void testRemoveTodoList() {
+    addTodoList("Satu");
+    addTodoList("Dua");
+    addTodoList("Tiga");
+    addTodoList("Empat");
+    addTodoList("Lima");
+
+    var result = removeTodoList(20);
+    System.out.println(result);
+
+    result = removeTodoList(7);
+    System.out.println(result);
+
+    result = removeTodoList(2);
+    System.out.println(result);
+
+    showTodoList();
   }
 
   /**
