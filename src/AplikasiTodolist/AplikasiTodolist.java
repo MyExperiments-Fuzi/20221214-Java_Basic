@@ -170,7 +170,17 @@ public class AplikasiTodolist {
   /**
    * Menampilkan view tambah todo list
    */
-  public static void viewAddTodoList() {}
+  public static void viewAddTodoList() {
+    System.out.println("MENAMBAH TODOLIST");
+
+    var todo = input("Todo (x Jika Batal)");
+
+    if (todo.equals("x")) {
+      // batal
+    } else {
+      addTodoList(todo);
+    }
+  }
 
   /**
    * Menampilkan view hapus todo list
