@@ -19,7 +19,7 @@
 - **Test View Menampilkan TodoList**
 - **View Menambahkan TodoList**
 - **Test View Menambahkan TodoList**
-- **A**
+- **View Menghapus TodoList**
 - **A**
 - **A**
 - **A**
