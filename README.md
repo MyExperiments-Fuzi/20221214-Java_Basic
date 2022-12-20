@@ -46,7 +46,38 @@
     person3 = new Person();
     ```
 
-- **A**
+- **Field**
+
+  - Fields / Properties / Attributes = data yg bisa kita sisipkan di dalam Object.
+  - Namun sebelum kita bisa memasukkan data di fields, kita harus mendeklarasikan data apa saja yg dimiliki object tersebut di dalam deklarasi class-nya.
+  - Membuat field sama seperti membuat variable, namun ditempatkan di block class.
+
+    ```java
+    class Person {
+      String name;
+      String address;
+      final String country = "Indonesia"; // tidak bisa dirubah variabelnya
+    }
+    ```
+
+  - **Manipulasi Field**
+
+    - Fields yg ada di object, bisa kita manipulasi. Tergantung final atau bukan.
+    - Jika final, berarti kita tidak bisa mengubah data field nya, namun jika tidak, kita bisa mengubah field nya.
+    - Untuk memanipulasi data field, sama seperti cara pada variable.
+    - Untuk mengakses field, kita butuh kata kunci . (titik) setelah nama object dan diikuti nama fields -nya.
+
+    ```java
+    var person = new Person();
+    person.name = "Fuad Zein";
+    person.address = "Surabaya";
+    // person.country = "Tidak Bisa DIubah";
+
+    System.out.println(person.name);
+    System.out.println(person.address);
+    System.out.println(person.country);
+    ```
+
 - **A**
 - **A**
 - **A**
