@@ -101,7 +101,23 @@
     person.sayHello("Budi");
     ```
 
-- **A**
+- **Constructor**
+  - Constructor = method yg akan dipanggil saat pertama kali Object dibuat. 
+  - Mirip seperti di method, kita bisa memberi parameter pada constructor.
+  - Nama constructor harus sama dengan nama class, dan tidak membutuhkan kata kunci void atau return value. 
+
+    ```java
+    class Person {
+      String name;
+      String address;
+      final String country = "Indonesia";
+
+      Person(String paramName, String paramAdress){
+        name = paramName;
+        address = paramAddress;
+      }
+    }
+    ```
 - **A**
 - **A**
 - **A**
