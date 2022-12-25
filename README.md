@@ -172,15 +172,39 @@
     }
     ```
 
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
-- **A**
+- **Variable Shadowing**
 
-```
+  - Variable shadowing = kejadian ketika kita membuat nama variable dengan nama yang sama di scope yang menutupi variable dengan nama yg sama di scope diatasnya.
+  - Ini biasa terjadi seperti kita membuat nama parameter di method sama dengan nama field di class.
+  - Saat terjadi variable shadowing, maka secara otomatis variable di scope di atasnya tidak bisa diakses.
 
-```
+    ```java
+      class Person {
+        String name;
+        String address;
+        final String country = "Indonesia";
+
+        Person(String name, String address){
+          name = name; // field nama tidak berubah
+          address = address; // field address tidak berubah
+        }
+
+        vodi sayHello(String name){
+          System.out.println("Hello" + name + ", My Name is " + name); // field name tidak diakses
+        }
+
+        void sayHello(){
+          this.sayHello("Bos");
+        }
+      }
+    ```
+
+  - **note**: hati-hati menggunakan **variable shadowing**
+
+- **A**
+- **A**
+- **A**
+- **A**
+- **A**
+- **A**
+- **A**
