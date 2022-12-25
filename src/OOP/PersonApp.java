@@ -14,10 +14,12 @@ public class PersonApp {
 
     person1.sayHello("Budi");
 
-    Person person2 = new Person("Budi", "Jakarta");
+    Person person2 = new Person("Budi");
 
     Person person3;
-    person3 = new Person("Joko", "Cirebon");
+    person3 = new Person();
+    person3.name = "Fuad";
+    person3.address = "Surabaya";
 
     person3.sayHello("Budi"); // name belum dideklarasikan, maka nilainya null
   }
