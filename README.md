@@ -189,7 +189,7 @@
           address = address; // field address tidak berubah
         }
 
-        vodi sayHello(String name){
+        void sayHello(String name){
           System.out.println("Hello" + name + ", My Name is " + name); // field name tidak diakses
         }
 
@@ -201,7 +201,34 @@
 
   - **note**: hati-hati menggunakan **variable shadowing**
 
-- **A**
+- **This Keyword**
+
+  - Saat kita membuat kode di dalam block constructor atau method di dalam class, kita bisa menggunakan kata kunci this untuk mengakses object saat ini.
+  - Misal kadang kita butuh mengakses sebuah field yang namanya sama dengan parameter method, hal ini tidak bisa dilakukan jika langsung menyebut nama field, kita bisa mengakses nama field tersebut dengan kata kunci **this**.
+  - This juga tidak hanya digunakan untuk mengakses field milik object saat ini, namun juga bisa digunakan untuk mengakses method.
+  - **This** bisa digunakan untuk mengatasi **masalah variable shadowing**.
+
+    ```java
+    class Person {
+      String name;
+      String address;
+      final String country = "Indonesia";
+
+      Person(String name, String address){
+        this.name = name;
+        this.address = address;
+      }
+
+      void sayHello(){
+        this.sayHello("Bos");
+      }
+
+      void sayHello(String name){
+        System.out.println("Hello" + name + ", My Name is " + this.name);
+      }
+    }
+    ```
+
 - **A**
 - **A**
 - **A**
